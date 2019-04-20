@@ -24,7 +24,7 @@ print("init force sensor", errorCode, forceState, forceVector, torqueVector)
 Apimode = 1 #work under api mode or UI mode
 movementMode = 0 #work under FK(0) or IK(1)
 #float signals
-Joint = [500,500,500,500,500,0] #FK mode joint values
+Joint = [500,500,500,500,500,500] #FK mode joint values
 #IK mode position X
 pos_X = 0
 pos_Y = 0 
